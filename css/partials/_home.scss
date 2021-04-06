@@ -1,0 +1,25 @@
+p {
+    color: green;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    background-color:$section-bkgnd-color;
+    
+    h1 {
+        font-size: 60px;
+    }
+        &:hover {
+            color: $heading-hover;
+        }
+    }
+    p {
+        font-style: italic;
+    }
+
+        span {
+            color: $span-highlight;
+        }

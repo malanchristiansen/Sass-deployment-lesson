@@ -1,0 +1,62 @@
+p {
+  color: green;
+}
+
+body {
+  text-align: center;
+}
+
+section {
+  background-color: aqua;
+}
+
+section h1 {
+  font-size: 60px;
+}
+
+section:hover {
+  color: green;
+}
+
+p {
+  font-style: italic;
+}
+
+span {
+  color: red;
+}
+
+body {
+  font-size: 40px;
+}
+
+header {
+  font-size: 50px;
+  padding: 30px;
+  color: beige;
+}
+
+footer {
+  font-size: 50px;
+  padding: 30px;
+  color: beige;
+}
+
+.success, .error, .warning {
+  border: 2px solid black;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.warning {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */
