@@ -2,41 +2,40 @@
 @import "partials/home";
 
 body {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 @mixin main-background($color: beige) {
-    font-size: 50px;
-    padding: 30px;
-    color: beige;
+  font-size: 50px;
+  padding: 30px;
+  color: beige;
 }
 
 header {
-    @include main-background($color: orange);
+  @include main-background($color: orange);
 }
 
 footer {
-    @include main-background($color: green);
+  @include main-background($color: green);
 }
 
 %msg-shared {
-    border: 2px solid black;
-    font-size: 30px;
-    font-style: italic;
+  border: 2px solid black;
+  font-size: 30px;
+  font-style: italic;
 }
 
-
 .success {
-    @extend %msg-shared;
-    color: green;
+  @extend %msg-shared;
+  color: green;
 }
 
 .error {
-    @extend %msg-shared;
-    color: red;
+  @extend %msg-shared;
+  color: red;
 }
 
 .warning {
-    @extend %msg-shared;
-    color: orange;
+  @extend %msg-shared;
+  color: orange;
 }
